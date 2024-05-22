@@ -1,13 +1,7 @@
-const express= require('express')
-const app= express();
+console.log("vinay");
+const a=5768;
+let b= "india";
+var c= "china"
+d= "bhutan"
 
-const PORT= 8080;
-
-app.get(('/'),(req,res)=>{
-res.send('hello world')
-})
-
-app.listen(PORT,()=>{
-    console.log(`server running on PORT ${PORT}`);
-    
-})
+console.table([a,b,c,d]);
